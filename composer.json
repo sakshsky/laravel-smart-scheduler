@@ -1,0 +1,29 @@
+{
+    "name": "sakshsky/laravel-smart-scheduler",
+    "description": "A smart scheduler UI for Laravel applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0|^10.0",
+        "spatie/laravel-package-tools": "^1.13",
+        "dragonmantank/cron-expression": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sakshsky\\SmartScheduler\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakshsky\\SmartScheduler\\SmartSchedulerServiceProvider"
+            ]
+        }
+    }
+}
